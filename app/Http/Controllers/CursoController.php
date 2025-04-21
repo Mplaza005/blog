@@ -51,6 +51,19 @@ class CursoController extends Controller
     }
 
 
+    // public function edit(Curso $curso){
+        
+    //     if($temp=Curso::find($curso>idCurso)){
+    //         $cliente=$temp;
+    //          return view('pqrsd.edit',compact('pqrsd','cliente'));
+    //     }
+    //     $cliente = new Cliente();
+    //     return view('pqrsd.edit',compact('pqrsd','cliente'));
+
+    // }
+
+
+
     public function destroy (Curso $curso){
         $curso->delete();
         return redirect()->route('pqrsds.index');

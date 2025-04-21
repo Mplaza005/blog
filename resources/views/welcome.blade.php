@@ -3,7 +3,7 @@
 @section('title','home')
 
 @section('content')
-<h1>Hola desde home 1</h1>
+<h1>Hola desde bienvenido</h1>
 
 @endsection()
 

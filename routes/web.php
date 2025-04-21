@@ -27,6 +27,9 @@ Route::get('cursos/create',[CursoController::class,'create']);
 
 Route::get('curso/{curso}',[CursoController::class,'show'])->name('curso.show');
 
+Route::get('curso/{curso}',[CursoController::class,'show'])->name('curso.update');
+
+Route::get('curso/{curso}/editar',[CursoController::class,'show'])->name('curso.edit');
 
 
 
